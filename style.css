@@ -178,9 +178,20 @@ h3 {
   color: #545454;
 }
 
-.subheading-about {
+.subheading-about96 {
   width: 430px;
+  height: 96px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
+  color: #4c4c4c;
+}
 
+.subheading-about144 {
+  width: 430px;
+  height: 144px;
   font-family: 'Arial';
   font-style: normal;
   font-weight: 400;
