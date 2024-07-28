@@ -1,1 +1,1 @@
-https://github.com/NataliaMelnik/shelter
+https://NataliaMelnik.github.io/shelter/
