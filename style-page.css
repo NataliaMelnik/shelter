@@ -1,0 +1,87 @@
+@font-face {
+  font-family: 'Georgia';
+}
+
+.our-pets-1280 {
+  max-width: 1280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+
+.container {
+  height: 120px;
+  background: #ffffff;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  width: 1200px;
+  height: 60px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 184px;
+  height: 60px;
+}
+
+h1 {
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+
+  color: #545454;
+  text-align: center;
+  line-height: 110%;
+  letter-spacing: 0.05em;
+}
+
+.subtitle {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  width: 179px;
+  height: 15px;
+  color: #292929;
+  margin: auto;
+  text-align: center;
+  letter-spacing: 0.09em;
+}
+
+.nav {
+  align-self: center;
+  width: 443px;
+  height: 27px;
+
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  color: #545454;
+}
+.pets {
+  width: 1280px;
+  height: 1342px;
+  background: #f6f6f6;
+}
