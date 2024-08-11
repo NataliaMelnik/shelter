@@ -6,8 +6,9 @@
     <title>Shelter</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/img/favicon.ico">
   </head>
-  <body class="mane-1280">
+  <body class="main">
     <section class="start-screen">
       <div class="header">
         <div class="logo">
@@ -16,17 +17,16 @@
         </div>
         <nav class="nav">
           <ul class="nav-list">
-            <li>
-              <a href="#about-the-shelter">About the shelter</a>
+            <li class="about-inactive">About the shelter</a>
             </li>
             <li>
-              <a href="page.html">Our pets</a>
+              <a href="page.html" class="nav-link">Our pets</a>
             </li>
             <li>
-              <a href="#help-the-shelter">Help the shelter</a>
+              <a href="#help-the-shelter" class="nav-link">Help the shelter</a>
             </li>
             <li>
-              <a href="#contacts">Contacts</a>
+              <a href="#contacts" class="nav-link">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -39,16 +39,16 @@
             extremely wide and open heart. He or she will love you more than
             anybody else in the world, you will see!
           </div>
-          <div class="button-primary">Make a friend</div>
+          <button class="button-primary">Make a friend</button>
         </div>
         <div class="start-screen-puppy"></div>
       </div>
     </section>
-    <section class="about" id="about-the-shelter">
+    <section class="about">
       <div class="about-content">
         <div class="about-pets"></div>
         <div class="content-about-pets">
-          <h3>About the shelter “Cozy House”</h3>
+          <h3 class="about-heading">About the shelter “Cozy House”</h3>
           <div class="subheading-about96">
             Currently we have 121 dogs and 342 cats on our hands and statistics
             show that only 20% of them will find a family. The others will
@@ -68,8 +68,35 @@
     </section>
     <section class="pets">
       <div class="pets-content">
-        <h3>Our friends who are looking for a house</h3>
+        <div class="pets-heading">Our friends who <br> are looking for a house</div>
+        <div class="slider">
+          <button class="button-arrow">
+            <img class="button-arrow-content" src="assets/img/Arrow.png" alt="стрелка влево">
+          </button>
+          <div class="card">
+            <div class="katrine"></div>
+            <h4>Katrine</h4>
+            <button class="button-secondary">Learn more</button>
+          </div>
+          <div class="indention"></div>
+          <div class="card">
+            <div class="jennifer"></div>
+            <h4>Jennifer</h4>
+            <button class="button-secondary">Learn more</button>
+          </div>
+          <div class="indention"></div>
+          <div class="card3">
+            <div class="woody"></div>
+            <h4>Woody</h4>
+            <button class="button-secondary">Learn more</button>
+          </div>
+          <button class="button-arrow">
+            <img class="button-arrow-content" src="assets/img/Arrow (1).png" alt="стрелка вправо">
+          </button>
+        </div>
+      <button class="button-primary-pets">Get to know the rest</button>
       </div>
+      
     </section>
   </body>
 </html>
