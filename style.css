@@ -286,9 +286,51 @@ h3 {
   border-radius: 9px;
 }
 
-.indention {
-  width: 0px;
-  background: #f6f6f6;
+.carousel-wrapper {
+  width: 950px;
+  overflow: hidden;
+}
+.item,
+.carousel {
+  display: flex;
+}
+
+.item {
+  gap: 70px;
+}
+
+.carousel {
+  position: relative;
+  left: -1020px;
+  gap: 70px;
+}
+
+@keyframes move-right {
+  from {
+    left: -950px;
+  }
+  to {
+    left: -2000px;
+  }
+}
+
+.transition-right {
+  animation-name: move-right;
+  animation-duration: 5s;
+}
+
+@keyframes move-left {
+  from {
+    left: -950px;
+  }
+  to {
+    left: -0px;
+  }
+}
+
+.transition-left {
+  animation-name: move-left;
+  animation-duration: 5s;
 }
 
 .katrine {
@@ -309,6 +351,36 @@ h3 {
   background: url(./assets/img/pets-woody.png);
 }
 
+.sophia {
+  width: 270px;
+  height: 270px;
+  background: url(./assets/img/pets-sophia.png);
+}
+
+.timmy {
+  width: 270px;
+  height: 270px;
+  background: url(./assets/img/pets-timmy.png);
+}
+
+.charly {
+  width: 270px;
+  height: 270px;
+  background: url(./assets/img/pets-charly.png);
+}
+
+.scarlett {
+  width: 270px;
+  height: 270px;
+  background: url(./assets/img/pets-scarlet.png);
+}
+
+.freddie {
+  width: 270px;
+  height: 270px;
+  background: url(./assets/img/pets-freddie.png);
+}
+
 h4 {
   font-family: 'Georgia';
   font-style: normal;
@@ -326,6 +398,10 @@ h4 {
   border: 2px solid #f1cdb3;
   border-radius: 100px;
   margin-top: 192px;
+}
+
+.button-arrow:hover {
+  background: #f1cdb3;
 }
 
 .button-secondary {
